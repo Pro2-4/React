@@ -70,7 +70,7 @@ const Blog = () => {
     <div className="blog-page">
       <section className="blog-hero">
         <div className="blog-hero-content">
-          <h1>Card Đồ Họa - VGA Chính Hãng</h1>
+          <h1>Card Đồ Họa - VGA</h1>
           <p>
             Cập nhật thông tin, đánh giá và so sánh các dòng card đồ họa mới
             nhất từ NVIDIA, AMD
