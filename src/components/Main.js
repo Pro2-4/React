@@ -12,12 +12,12 @@ const Main = () => {
   return (
     <main className="main-content">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/card-do-hoa-chinh-hang" element={<Home />} />
+        <Route path="/ve-gpu-store" element={<About />} />
+        <Route path="/dong-san-pham" element={<Services />} />
+        <Route path="/card-do-hoa-vga" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/lien-he-gpu-store" element={<Contact />} />
       </Routes>
     </main>
   );
