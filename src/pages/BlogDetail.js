@@ -135,7 +135,10 @@ const BlogDetail = () => {
           <li>Kích thước lớn, chiếm nhiều không gian trong case</li>
           <li>Yêu cầu nguồn điện mạnh và hệ thống tản nhiệt tốt</li>
         </ul>
-  
+
+        <h2>Kết luận</h2>
+        <p>GeForce RTX 4090 là sự lựa chọn tối thượng cho ai đang tìm kiếm một GPU mạnh mẽ, đa năng và lâu dài. Dù không dành cho tất cả mọi người do giá cả và kích thước, nhưng đây là khoản đầu tư xứng đáng cho những ai cần sức mạnh đỉnh cao trong mọi tác vụ đồ họa.</p>
+    
         <h2>Mẹo Build máy phù hợp với RTX 4090</h2>
         <p>Để tận dụng tối đa sức mạnh của RTX 4090, bạn nên phối hợp với các linh kiện sau:</p>
         <ul>
@@ -145,10 +148,6 @@ const BlogDetail = () => {
           <li><strong>Tản nhiệt CPU:</strong> Tản khí cỡ lớn hoặc nước AIO 360mm</li>
           <li><strong>Vỏ case:</strong> Case Full-Tower đảm bảo không gian và luồng gió tốt</li>
         </ul>
-
-         <h2>Kết luận</h2>
-        <p>GeForce RTX 4090 là sự lựa chọn tối thượng cho ai đang tìm kiếm một GPU mạnh mẽ, đa năng và lâu dài. Dù không dành cho tất cả mọi người do giá cả và kích thước, nhưng đây là khoản đầu tư xứng đáng cho những ai cần sức mạnh đỉnh cao trong mọi tác vụ đồ họa.</p>
-    
       `,
       image: "/images/RTX-4090.jpg",
       date: "20 Tháng 3, 2024",
