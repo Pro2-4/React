@@ -118,9 +118,6 @@ const BlogDetail = () => {
           </tr>
         </table>
     
-        <h2>Giá bán và đối tượng người dùng</h2>
-        <p>RTX 4090 có giá dao động từ 1.500 USD đến 2.000 USD tùy phiên bản và thương hiệu. Đây là sản phẩm hướng đến những game thủ cao cấp, nhà sáng tạo nội dung 3D, chuyên viên AI/ML hoặc người dựng phim chuyên nghiệp. Không dành cho người dùng phổ thông chỉ chơi game nhẹ hay làm văn phòng.</p>
-    
         <h2>Ưu điểm nổi bật</h2>
         <ul>
           <li>Hiệu năng mạnh nhất trong thế giới card đồ họa hiện nay</li>
@@ -135,10 +132,7 @@ const BlogDetail = () => {
           <li>Kích thước lớn, chiếm nhiều không gian trong case</li>
           <li>Yêu cầu nguồn điện mạnh và hệ thống tản nhiệt tốt</li>
         </ul>
-
-        <h2>Kết luận</h2>
-        <p>GeForce RTX 4090 là sự lựa chọn tối thượng cho ai đang tìm kiếm một GPU mạnh mẽ, đa năng và lâu dài. Dù không dành cho tất cả mọi người do giá cả và kích thước, nhưng đây là khoản đầu tư xứng đáng cho những ai cần sức mạnh đỉnh cao trong mọi tác vụ đồ họa.</p>
-    
+       
         <h2>Mẹo Build máy phù hợp với RTX 4090</h2>
         <p>Để tận dụng tối đa sức mạnh của RTX 4090, bạn nên phối hợp với các linh kiện sau:</p>
         <ul>
@@ -148,6 +142,12 @@ const BlogDetail = () => {
           <li><strong>Tản nhiệt CPU:</strong> Tản khí cỡ lớn hoặc nước AIO 360mm</li>
           <li><strong>Vỏ case:</strong> Case Full-Tower đảm bảo không gian và luồng gió tốt</li>
         </ul>
+
+        <h2>Giá bán và đối tượng người dùng</h2>
+        <p>RTX 4090 có giá dao động từ 1.500 USD đến 2.000 USD tùy phiên bản và thương hiệu. Đây là sản phẩm hướng đến những game thủ cao cấp, nhà sáng tạo nội dung 3D, chuyên viên AI/ML hoặc người dựng phim chuyên nghiệp. Không dành cho người dùng phổ thông chỉ chơi game nhẹ hay làm văn phòng.</p>
+    
+        <h2>Kết luận</h2>
+        <p>GeForce RTX 4090 là sự lựa chọn tối thượng cho ai đang tìm kiếm một GPU mạnh mẽ, đa năng và lâu dài. Dù không dành cho tất cả mọi người do giá cả và kích thước, nhưng đây là khoản đầu tư xứng đáng cho những ai cần sức mạnh đỉnh cao trong mọi tác vụ đồ họa.</p>
       `,
       image: "/images/RTX-4090.jpg",
       date: "20 Tháng 3, 2024",
