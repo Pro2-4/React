@@ -6,7 +6,7 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "RTX 4090 - Card Đồ Họa Mạnh Nhất Hiện Nay",
+      title: "Card Đồ Họa - RTX 4090 Mạnh Nhất Hiện Nay",
       excerpt:
         "Đánh giá chi tiết về hiệu năng và các tính năng mới nhất của NVIDIA GeForce RTX 4090.",
       image: "./images/RTX-4090.jpg",
