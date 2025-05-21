@@ -694,8 +694,8 @@
     flex-direction: column;
     gap: 0.5rem;
   }
-
-  .content h4 {
+}
+.content h4 {
   font-size: 1.35rem;
   color: #3182ce;
   margin: 2rem 0 1rem;
@@ -725,6 +725,4 @@
   font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-}
-
 }
