@@ -2,7 +2,7 @@
 
 .blog-detail {
   width: 100%;
-  max-width: 1700px;
+  max-width: 1600px;
   margin: auto;
   padding: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -16,7 +16,7 @@
   grid-template-columns: 60px minmax(0, 1fr) 350px;
   gap: 2.5rem;
   position: relative;
-  max-width: 1700px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
