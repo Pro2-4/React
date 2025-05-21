@@ -159,7 +159,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  transform: translateX(510px);
+  transform: translateX(410px);
   width: 80px;
   height: 4px;
   background: linear-gradient(135deg, #3182ce 0%, #63b3ed 100%);
