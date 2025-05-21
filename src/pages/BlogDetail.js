@@ -8,14 +8,15 @@ const BlogDetail = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Card Đồ Họa - RTX 4090 Mạnh Nhất Hiện Nay",
+      title: "RTX 4090 - Card Đồ Họa Mạnh Nhất Hiện Nay",
       content: `
         <h2>Giới thiệu tổng quan về RTX 4090</h2>
         <p>NVIDIA GeForce RTX 4090 là sản phẩm đầu bảng của dòng GPU RTX 40 Series, ra mắt vào cuối năm 2022. Được xây dựng trên kiến trúc Ada Lovelace mới, RTX 4090 mang đến một bước nhảy vọt về hiệu suất đồ họa, khả năng tính toán và công nghệ AI. Đây không chỉ là card đồ họa dành cho game thủ đòi hỏi trải nghiệm 4K mượt mà, mà còn là công cụ mạnh mẽ cho các nhà phát triển phần mềm, kỹ sư dữ liệu, và người sáng tạo nội dung chuyên nghiệp.</p>
     
         <img src="/images/nvidia.jpg" width="100%" />
-    
-        <h2>Kiến trúc Ada Lovelace: Trái tim của RTX 4090</h2>
+
+        <h2>Giới thiệu chi tiết về RTX 4090</h2>
+        <h3>Kiến trúc Ada Lovelace: Trái tim của RTX 4090</h3>
         <p>Kiến trúc Ada Lovelace là nền tảng cho hiệu suất vượt trội của RTX 4090. So với Ampere (thế hệ RTX 30), Ada Lovelace cải thiện mạnh mẽ hiệu suất trên mỗi watt và hỗ trợ tốt hơn cho các công nghệ tiên tiến như DLSS 3.0, Ray Tracing thế hệ thứ 3 và Shader Execution Reordering (SER). GPU AD102-300-A1 sở hữu 76 tỷ transistor, khiến nó trở thành một trong những con chip phức tạp nhất từng được sản xuất.</p>
     
         <p>Các cải tiến nổi bật:</p>
@@ -27,7 +28,7 @@ const BlogDetail = () => {
     
         <img src="https://images.hothardware.com/contentimages/article/3242/content/small_nvidia-ad102-gpu-diagram.jpg" alt="RTX 4090 Chip Architecture" width="100%" />
     
-        <h2>Thông số kỹ thuật chi tiết</h2>
+        <h3>Thông số kỹ thuật chi tiết</h3>
         <ul>
           <li><strong>GPU:</strong> AD102-300-A1 (Ada Lovelace)</li>
           <li><strong>Số nhân CUDA:</strong> 16,384</li>
@@ -43,12 +44,12 @@ const BlogDetail = () => {
           <li><strong>Cổng kết nối:</strong> HDMI 2.1, DisplayPort 1.4a</li>
         </ul>
     
-        <h2>Hiệu năng thực tế trong game</h2>
+        <h3>Hiệu năng thực tế trong game</h3>
         <p>RTX 4090 có thể chơi mượt các tựa game ở độ phân giải 4K với mức thiết lập tối đa. Trong Cyberpunk 2077, kết hợp với DLSS 3.0 và Ray Tracing, card vẫn duy trì FPS ổn định trên 90-100. Với các game như Red Dead Redemption 2, Forza Horizon 5, Assassin’s Creed Valhalla, RTX 4090 thể hiện khả năng vượt trội với mức khung hình ổn định trên 120 FPS ở 4K. Ngay cả với độ phân giải 8K, RTX 4090 vẫn mang lại trải nghiệm chơi game khả thi với sự hỗ trợ của DLSS.</p>
     
         <img src="https://file.hstatic.net/200000722513/article/cyberpunk-2077-overdrive-mode-path-tracing-modded-4k_b9a393c5c96a459789498abd3ea69489.jpg" alt="Cyberpunk 2077 with RTX 4090" width="100%" />
     
-        <h3>Một số game thử nghiệm cụ thể:</h3>
+        <h4>Một số game thử nghiệm cụ thể:</h4>
         <ul>
           <li><strong>Assassin's Creed Valhalla:</strong> ~140 FPS @ 4K Ultra + RTX</li>
           <li><strong>The Witcher 3 Next Gen:</strong> ~110 FPS @ 4K + DLSS Performance Mode</li>
@@ -56,16 +57,16 @@ const BlogDetail = () => {
           <li><strong>Portal RTX:</strong> 60-70 FPS @ 4K với toàn bộ Ray Tracing bật tối đa</li>
         </ul>
     
-        <h2>Công nghệ tiên tiến được tích hợp</h2>
-        <h3>Ray Tracing thế hệ thứ 3</h3>
+        <h3>Công nghệ tiên tiến được tích hợp</h3>
+        <h4>Ray Tracing thế hệ thứ 3</h4>
         <p>Thế hệ thứ 3 của Ray Tracing cho phép hiển thị ánh sáng, phản chiếu và bóng đổ chân thực hơn bao giờ hết. RTX 4090 cho thấy hiệu suất Ray Tracing tăng gấp đôi so với RTX 3090 nhờ vào RT Cores mới và cải tiến thuật toán.</p>
     
-        <h3>DLSS 3.0 và Optical Flow Accelerator</h3>
+        <h4>DLSS 3.0 và Optical Flow Accelerator</h4>
         <p>DLSS 3.0 không chỉ tái dựng hình ảnh từ độ phân giải thấp mà còn dự đoán toàn bộ khung hình mới thông qua AI, nhờ đó cải thiện hiệu suất tới 2-4 lần. Công nghệ này đặc biệt hiệu quả trong các game nặng như Flight Simulator, The Witcher 3 Next-Gen và Portal RTX.</p>
     
         <img src="https://photo2.tinhte.vn/data/attachment-files/2022/10/6161168_Tinhte_DLSS2.jpg" alt="DLSS 3 Frame Generation" width="100%" />
     
-        <h2>Tản nhiệt và thiết kế vật lý</h2>
+        <h3>Thiết kế vật lý</h3>
         <p>RTX 4090 có kích thước rất lớn, thường yêu cầu tới 3-4 khe cắm PCIe. Các phiên bản custom từ ASUS, GIGABYTE, MSI sử dụng hệ thống làm mát với 3 quạt lớn, buồng hơi và tản nhiệt bằng hợp kim nhôm dày. Quạt hoạt động êm ái ở mức tải trung bình và hiệu quả tản nhiệt cho phép card duy trì mức nhiệt dưới 75°C khi chạy 100% tải.</p>
     
         <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80 " alt="RTX 4090 Custom Design" width="100%" />
@@ -118,21 +119,6 @@ const BlogDetail = () => {
           </tr>
         </table>
     
-        <h2>Ưu điểm nổi bật</h2>
-        <ul>
-          <li>Hiệu năng mạnh nhất trong thế giới card đồ họa hiện nay</li>
-          <li>Hỗ trợ tốt cho AI, render, mô phỏng kỹ thuật</li>
-          <li>DLSS 3.0 cho hiệu năng vượt trội</li>
-          <li>Tương thích với nhiều phần mềm chuyên nghiệp</li>
-        </ul>
-    
-        <h2>Nhược điểm cần cân nhắc</h2>
-        <ul>
-          <li>Giá quá cao, khó tiếp cận cho người dùng thông thường</li>
-          <li>Kích thước lớn, chiếm nhiều không gian trong case</li>
-          <li>Yêu cầu nguồn điện mạnh và hệ thống tản nhiệt tốt</li>
-        </ul>
-       
         <h2>Mẹo Build máy phù hợp với RTX 4090</h2>
         <p>Để tận dụng tối đa sức mạnh của RTX 4090, bạn nên phối hợp với các linh kiện sau:</p>
         <ul>
@@ -143,11 +129,29 @@ const BlogDetail = () => {
           <li><strong>Vỏ case:</strong> Case Full-Tower đảm bảo không gian và luồng gió tốt</li>
         </ul>
 
+        <h2>Đánh giá</h2>
+        <h3>Ưu điểm nổi bật</h3>
+        <ul>
+          <li>Hiệu năng mạnh nhất trong thế giới card đồ họa hiện nay</li>
+          <li>Hỗ trợ tốt cho AI, render, mô phỏng kỹ thuật</li>
+          <li>DLSS 3.0 cho hiệu năng vượt trội</li>
+          <li>Tương thích với nhiều phần mềm chuyên nghiệp</li>
+        </ul>
+    
+        <h3>Nhược điểm cần cân nhắc</h3>
+        <ul>
+          <li>Giá quá cao, khó tiếp cận cho người dùng thông thường</li>
+          <li>Kích thước lớn, chiếm nhiều không gian trong case</li>
+          <li>Yêu cầu nguồn điện mạnh và hệ thống tản nhiệt tốt</li>
+        </ul>
+    
         <h2>Giá bán và đối tượng người dùng</h2>
         <p>RTX 4090 có giá dao động từ 1.500 USD đến 2.000 USD tùy phiên bản và thương hiệu. Đây là sản phẩm hướng đến những game thủ cao cấp, nhà sáng tạo nội dung 3D, chuyên viên AI/ML hoặc người dựng phim chuyên nghiệp. Không dành cho người dùng phổ thông chỉ chơi game nhẹ hay làm văn phòng.</p>
-    
+
         <h2>Kết luận</h2>
         <p>GeForce RTX 4090 là sự lựa chọn tối thượng cho ai đang tìm kiếm một GPU mạnh mẽ, đa năng và lâu dài. Dù không dành cho tất cả mọi người do giá cả và kích thước, nhưng đây là khoản đầu tư xứng đáng cho những ai cần sức mạnh đỉnh cao trong mọi tác vụ đồ họa.</p>
+    
+        
       `,
       image: "/images/RTX-4090.jpg",
       date: "20 Tháng 3, 2024",
