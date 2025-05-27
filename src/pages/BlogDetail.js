@@ -8,7 +8,7 @@ const BlogDetail = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "RTX 4090 - Card Đồ Họa Mạnh Nhất Hiện Nay",
+      title: "Card Đồ Họa - RTX 4090 Mạnh Nhất Hiện Nay",
       content: `
         <h2>Giới thiệu tổng quan về RTX 4090</h2>
         <p>NVIDIA GeForce RTX 4090 là sản phẩm đầu bảng của dòng GPU RTX 40 Series, ra mắt vào cuối năm 2022. Được xây dựng trên kiến trúc Ada Lovelace mới, RTX 4090 mang đến một bước nhảy vọt về hiệu suất đồ họa, khả năng tính toán và công nghệ AI. Đây không chỉ là card đồ họa dành cho game thủ đòi hỏi trải nghiệm 4K mượt mà, mà còn là công cụ mạnh mẽ cho các nhà phát triển phần mềm, kỹ sư dữ liệu, và người sáng tạo nội dung chuyên nghiệp.</p>
